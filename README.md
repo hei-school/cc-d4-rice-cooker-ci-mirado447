@@ -1,58 +1,45 @@
 [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/__xb4cFP)
-# Rice Cooker Simulation
+
+# Rice Cooker Simulation (Go)
 
 This program simulates the operation of a rice cooker and includes features corresponding to its real-world use.
 
 ## Features
 
-1. **Rice Cooker Connection**
-   - Connect the rice cooker to a power source.
+1. **Power Connection**
+   - Connect the rice cooker to the power source.
 
-2. **Rice Preparation**
-   - Pour the rice into the rice cooker.
+2. **Lid Opening**
+   - Open the lid of the rice cooker.
 
-3. **Water Addition**
-   - Add the required amount of water for cooking.
+3. **Adding Food**
+   - Pour the specified quantity of food into the rice cooker.
 
-4. **Start Cooking**
+4. **Adding Water**
+   - Add the required amount of water based on the food.
+
+5. **Lid Closure**
+   - Close the lid of the rice cooker.
+
+6. **Start Cooking**
    - Press the "Cook" button to initiate the cooking process.
 
-5. **Cooking Completion**
-   - Once the cooking is finished, unplug the rice cooker.
-
-## Work in Progress (WIP)
-
-- List ongoing development features here.
-
-## Known Issues (Bug)
-
-- Mention current bugs to inform users.
+7. **Power Disconnection**
+   - Unplug the rice cooker when finished.
 
 ## Installation
-This project is written in four different programs using various programming languages.
 
-1. **Cloning the Project**
-   - Clone the project to your local machine using the command:
-     ```bash
-     git clone <project link>
-     ```
+1. **Clone the Project**
+   ```bash
+   git clone <project_link>
 
-2. **Choosing a Branch**
-   - View the list of available branches with the command:
-     ```bash
-     git branch
-     ```
-   - Select the branch to use with the command:
-     ```bash
-     git checkout <branch name>
-     ```
+2. **Navigate to the Project Directory**
+   ```bash
+   cd project_name 
 
-3. **Installation Instructions by Language**
-   - Follow specific instructions for each branch:
-     -feature/GO :
-     -feature/Ruby:
-
-
-## Language Standards
-
-- Specify coding standards adopted for each programming language used.
+2. **Run the progran**
+   ```bash
+   go run rice_cooker.go
+  
+## Prerequisites
+Make sure you have Go installed on your system. You can download and install it from https://golang.org/doc/install
