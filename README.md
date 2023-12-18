@@ -1,6 +1,6 @@
 [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/__xb4cFP)
 
-# Rice Cooker Simulation (Go)
+# Rice Cooker Simulation (Ruby)
 
 This program simulates the operation of a rice cooker and includes features corresponding to its real-world use.
 
@@ -24,7 +24,13 @@ This program simulates the operation of a rice cooker and includes features corr
 6. **Start Cooking**
    - Press the "Cook" button to initiate the cooking process.
 
-7. **Power Disconnection**
+7. **Cooking**
+   - The "Cook" button remains engaged during cooking.
+
+8. **Switch to Warm Mode**
+   - Once cooking is complete, the rice cooker automatically switches to "Warm" mode.
+
+9. **Power Disconnection**
    - Unplug the rice cooker when finished.
 
 ## Installation
@@ -35,11 +41,11 @@ This program simulates the operation of a rice cooker and includes features corr
 
 2. **Navigate to the Project Directory**
    ```bash
-   cd project_name 
+   cd Project_name
 
-2. **Run the progran**
+3. **Run the Program**
    ```bash
-   go run rice_cooker.go
-  
+   ruby rice_cooker.rb
+
 ## Prerequisites
-Make sure you have Go installed on your system. You can download and install it from https://golang.org/doc/install
+Ensure you have Ruby installed on your system. You can download and install it from https://www.ruby-lang.org/en/documentation/installation/
